@@ -1,0 +1,22 @@
+body {
+    background-color: lightgrey;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    display: flex;
+    float: left;
+    margin-top: 15px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.box.darkMode{
+    background-color: gray;
+}
+
